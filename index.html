@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/2e6a7320cd.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <title> Personal portfolio website </title>
+        <link rel="stylesheet" href="./portfolio.css">
+    </head>
+    <body>
+      <div id="header">
+      <div class="container">
+        <nav>
+          <img src="Image/logo.png" class="logo" >
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+         <p> Web Developer , Javascript Developer , Logo Designer </p>
+          <h1>Hi, I'm <span>Ayush Pal</span> <br>From Indore</h1>
+        </div>
+      </div>
+      </div>
+      <!------------------about------------------>
+      <div id="about">
+        <div class="container">
+          <div class="row">
+            <div class="about-col-1">
+              <img src="Image/user.jpg"  >
+            </div>
+            <div class="about-col-2">
+              <h1 class="sub-title">About Me</h1>
+              <p>I am Ayush Pal, from Indore. I am persuing my B.tech (Cs.) from One of the best college in indore Swami Vivekanand College of Engineering. and I am interested in web development and java development. and I am enjoing coding and playing Vollyball.  
+              </p>
+
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links"onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>Web Development</span><br>Web app Development</li>
+              <li><span>logo Designer</span><br>Logo Designer</li>
+              <li><span>Javascript Development</span><br>Java Development</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>2023 - Current</span><br>B.tech(Cs.) from SVCE Indore</li>
+              <li><span>2020</span><br>Web Development</li>
+              <li><span>2021</span><br>12th from Mp Board Bhopal</li>
+              <li><span>2019 </span><br>10th from Mp Board Bhopal</li>
+            </ul>
+          </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--------------------Services-------------------->
+      <div id="services">
+        <div class="container">
+          <h1 class="sub-title">My Services</h1>
+          <div class="services-list">
+            <div>
+              <i class="fa-solid fa-code"></i>
+              <h2> Web Design</h2>
+              <p>Web development refers to the creating, building, and maintaining of websites. It includes aspects such as web design, web publishing, web programming, and database management. It is the creation of an application that works over the internet i.e. websites.</p>
+              <a href="#">Learn more</a>
+            </div>
+            <div>
+              <i class="fa-solid fa-crop"></i>
+              <h2> Logo Design</h2>
+              <p>It serves as a self-explanatory image that people can use to connect with your brand. This informs the audience while giving them something to associate your brand and ideas with. Graphic marks have been long used by humans to signify their products, work, and even their bloodline.</p>
+              <a href="#">Learn more</a>
+            </div>
+            <div>
+              <i class="fa-brands fa-java"></i>
+              <h2> Javascript Developer</h2>
+              <p>JavaScript is a powerful programming language that can add interactivity to a website. It was invented by Brendan Eich. JavaScript is versatile and beginner-friendly.</p>
+              <a href="#">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-----------------------portfolio------------------>
+      <div id="portfolio">
+        <div class="container">
+          <h1 class="sub-title">My Work</h1>
+          <div class="work-list">
+            <div class="work">
+              <img src="Image/user1.jpg" alt height="375px">
+              <div class="layer">
+                <h3>Social Media Web</h3>
+                <p>The website connects you yo the talented people around the world.Open it on chrome .</p>
+                <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="Image/user2.jpg" alt height="375px">
+              <div class="layer">
+                <h3>Music Web</h3>
+                <p>Music websites act as an online resume for most professional musicians and bands</p>
+                <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="Image/user3.png" alt height="375px">
+              <div class="layer">
+                <h3>Online shoping web</h3>
+                <p>Online shopping is a form of electronic commerce which allows consumers to directly buy goods or services from a seller over the Internet using a web browser or a mobile app.</p>
+                <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </div>
+          </div>
+          <a href="#" class="btn">See more</a>
+        </div>
+      </div>
+      <!--------------------------Contact---------------------->
+      <div id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="contact-left">
+              <h1 class="sub-title">Contact Me</h1>
+              <p> <i class="fa-solid fa-envelope"></i>   ayushpal0301@gmail.com</p>
+              <p> <i class="fa-solid fa-phone"></i>        6269366139</p>
+               <div class="social-icon">
+                 <a href="https://instagram.com/iamayush_.1?igshid=ZGUzMzM3NWJiOQ=="><i class="fa-brands fa-instagram"></i></a>
+               </div>
+               <a href="Image/My CV.pdf" download class="btn btn2">Download CV</a>
+              </div>
+              <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                  <input type="text" name="Name" placeholder="Your name" required>
+                  <input type="email" name="email" placeholder="Your Email" required>
+                  <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                  <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg" ></span>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>copyright © Ayuu, Made by Ayush Pal </p>
+        </div>
+      </div>
+      <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+          for(tablink of tablinks){
+              tablink.classList.remove("active-link");
+          }
+          for(tabcontent of tabcontents){
+              tabcontent.classList.remove("active-tab");
+          }
+          event.currentTarget.classList.add("active-link")
+          document.getElementById(tabname).classList.add("active-tab");
+      }
+      </script>
+      <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+          sidemenu.style.right = "0";
+        }
+        function closemenu(){
+          sidemenu.style.right = "-230px";
+        }
+
+      </script>
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzJNrNTCzqBSDGSV4bpszoN5gGg6sCOzdX9OaQNHAU1C_Iq9ZK0TgO97c1_ZyV0cr8D/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+              msg.innerHTML = " "
+            },5000)
+            form.reset()
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    </body>
+</html>
